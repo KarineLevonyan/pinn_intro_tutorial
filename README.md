@@ -117,13 +117,4 @@ pip install torch numpy matplotlib
 python 01_heat_equation_pinn.py
 ```
 
-Training takes ~1–2 minutes on CPU.
 
----
-
-## Key Concepts to Explore Next
-
-- **Harder PDEs** — Burgers equation (nonlinear), Navier-Stokes, wave equation
-- **Inverse problems** — recover unknown PDE parameters (e.g., ν) from sparse observations
-- **Adaptive sampling** — focus collocation points where the residual is large
-- **Fourier features** — improve convergence for high-frequency solutions
